@@ -1,5 +1,6 @@
 import React from 'react'
 import { handleLogin } from '@/app/actions/auth'
+import Link from 'next/link'
 
 const Login = () => {
     return (
@@ -17,6 +18,7 @@ const Login = () => {
                 <div className='p-4'>
                     <p>User: coolpisces22@gmail.com</p>
                     <p>Password: 123123123</p>
+                    <Link className="p-2 bg-red-500 text-white" href="/authzero">AuthZero</Link>
                 </div>
             </form>
 
